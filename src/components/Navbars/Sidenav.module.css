@@ -1,0 +1,54 @@
+.sideContainer {
+  background: linear-gradient(180deg, #395ac8 0%, #5e3bc8 100%) 0% 0% no-repeat;
+  height: 90vh;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 40px;
+  padding-right: 50px;
+}
+
+/* .container {
+  padding: 40px;
+} */
+
+.navItemContainer {
+  margin-left: 40px;
+}
+
+.navItem {
+  color: var(--color-light-gray);
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.active {
+  font-weight: 600;
+  color: var(--color-white);
+}
+.navText {
+  margin-top: 15px;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #7f83d8;
+  margin-top: 10px;
+}
+
+.navDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.activeSymbol {
+  margin-top: 15px;
+  background-color: white;
+  color: #bdc5d4;
+  position: absolute;
+  right: -50px;
+  border-radius: 20px 0px 0px 20px;
+}

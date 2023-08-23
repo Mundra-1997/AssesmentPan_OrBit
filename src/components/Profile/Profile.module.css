@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+.profilePicture {
+  width: 250px;
+  height: 250px;
+}
+
+.leftContainer {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightContainer {
+  flex: 1;
+  padding: 50px;
+}
+
+.profileName {
+  color: var(--color-gray);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.userDetails {
+  font-size: 20px;
+  color: #9a9a9a;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.divider {
+  background-color: #9a9a9a;
+  height: 1px;
+  margin: 20px 0px;
+}
+
+.comapnyTitle {
+  text-align: center;
+  color: #9a9a9a;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.label {
+  text-align: right;
+  margin-right: 8px;
+  flex-basis: 120px;
+  font-weight: 600;
+}
+
+.detail {
+  flex-grow: 1;
+  color: var(--color-gray);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.addressTitle {
+  color: #9a9a9a;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.map {
+  border-radius: 10px;
+}
+
+.locationDetails {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.locationDetails p {
+  margin: 5px;
+  color: #9a9a9a;
+}
+
+.locationDetails span {
+  color: var(--color-gray);
+  font-size: 16px;
+}
